@@ -1,7 +1,7 @@
 const faker = require('faker');
 const _ = require('lodash');
 
-let employees = _.times(10, (id) => {
+let employees = _.times(1000, (id) => {
     const firstName = faker.name.firstName();
     const lastName = faker.name.lastName();
 
